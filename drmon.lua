@@ -34,19 +34,19 @@ inputFluxGate = peripheral.wrap(inputFluxGate)
 outputFluxGate = peripheral.wrap(outputFluxGate)
 reactor = peripheral.wrap(reactor)
 
-if monitor == null then
+if monitor == nil then
 	error("No valid monitor was found")
 end
 
-if outputFluxGate == null then
+if outputFluxGate == nil then
 	error("No valid fluxgate for output was found")
 end
 
-if reactor == null then
+if reactor == nil then
 	error("No valid reactor was found")
 end
 
-if inputFluxGate == null then
+if inputFluxGate == nil then
 	error("No valid fluxgate for input was found")
 end
 
